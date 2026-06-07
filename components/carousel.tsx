@@ -21,7 +21,7 @@ export default function Carousel() {
   }, [images.length]);
 
   return (
-    <section className="relative  h-screen overflow-hidden z-0  ">
+    <section className="relative  h-150  overflow-hidden z-0  ">
       <div
         className="flex h-full transition-transform duration-700 ease-in-out"
         style={{

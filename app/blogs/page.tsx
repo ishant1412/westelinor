@@ -1,6 +1,8 @@
+import Blogs from "@/components/blogs"
 const Page=()=>{
     return <>
     <div>
-        blogs page
+        <Blogs/>
          </div></>
 }
+export default Page

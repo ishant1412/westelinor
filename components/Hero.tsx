@@ -4,8 +4,9 @@ import aboutusimage from "@/assets/aboutus.png"
 import ourserviceimage from "@/assets/ourservice.png"
 import Carousel from "./carousel";
 import Partners from "./Partners";
-
-
+import Stats from "./stats";
+import Team from "./team";
+import VideoSection from "./video";
 const Hero = () => {
   return (
     <div className="bg-[#f8fbff] min-h-screen">
@@ -93,8 +94,14 @@ const Hero = () => {
             </div>
 
           </div>
-
+          {/*stats section*/}
+           <Stats/>
+           {/* teams section */}
+           <Team/>
+           {/* {video section} */}
+           <VideoSection/>
         </div>
+       
       </section>
 
     </div>

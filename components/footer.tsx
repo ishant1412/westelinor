@@ -14,7 +14,7 @@ import { MdEmail } from "react-icons/md";
 
 export default function Footer() {
   return (
-    <footer className="relative min-h-[500px] text-white">
+    <footer className="relative min-h-[500px] z-50  text-white overflow-hidden">
       {/* Background */}
       <Image
         src={footerBg}
@@ -38,7 +38,7 @@ export default function Footer() {
             </h3>
 
             <p className="leading-8 text-gray-100 text-justify">
-              SUPERAI aims to accelerate your business productivity
+              WESTELINOR aims to accelerate your business productivity
               and profitability through intelligent digital solutions.
               Our experienced team helps organizations streamline
               operations, improve efficiency, and leverage AI-driven
@@ -54,19 +54,19 @@ export default function Footer() {
 
             <div className="flex justify-center gap-6 text-5xl text-cyan-400">
 
-              <a href="#">
+              <a href="https://www.facebook.com/westelinorTECH">
                 <FaFacebookF className="hover:scale-110 transition" />
               </a>
 
-              <a href="#">
+              <a href="x.com">
                 <FaXTwitter className="hover:scale-110 transition" />
               </a>
 
-              <a href="#">
+              <a href="https://www.instagram.com/westelinortech/">
                 <FaInstagram className="hover:scale-110 transition" />
               </a>
 
-              <a href="#">
+              <a href="https://www.linkedin.com/company/westelinor/">
                 <FaLinkedinIn className="hover:scale-110 transition" />
               </a>
 
@@ -119,7 +119,7 @@ export default function Footer() {
 
               <div className="flex items-center gap-4">
                 <MdEmail className="text-cyan-400 text-xl" />
-                <span>info@superai.com</span>
+                <span>info@westelinor.com</span>
               </div>
 
             </div>
